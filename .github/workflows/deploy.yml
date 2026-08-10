@@ -9,10 +9,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: action/checkout@vS
+    - uses: actions/checkout@vS
     - name: Display Message
       run: echo "Building Application"
     - name: Run tests
-      run: echo "testing successfu"
+      run: echo "testing successful"
     - name: Deploy
       run: echo "deployment successful"
